@@ -1,0 +1,241 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*{transition: all .2s ease-in;}
+
+html {
+    box-sizing: border-box;
+    background: #3399CC;
+    height: 100%;
+    /*height: 100%;*/
+    font-family: Lucida Sans Unicode;
+    border: 20px solid #2C83AF;
+}
+
+main {
+    margin-left: 17%;
+    margin-right: 17%;
+    display: block;
+
+}
+
+
+
+#invisible{
+    padding: 0;
+    width: 50px;
+    height: 700px;
+    background-color: #7a7593;
+    display: block;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#logo{
+
+    color:#FFF;
+    line-height:170%;
+    opacity:1;
+    font-size: 37px;
+    line-height:170%;
+    vertical-align: baseline;
+
+    padding: 0;
+
+}
+
+.big-text{
+    /*background-color: #7a7593;*/
+    font-size: 27px;
+    color: white;
+    /*margin: 0px 10px 0px 100px;*/
+    line-height:170%;
+    vertical-align: baseline;
+
+    wide-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+p{
+    /*background-color: #7a7593;*/
+    font-size: 15px;
+    color: white;
+    /*margin: 0px 100px;*/
+    line-height:170%;
+    vertical-align: baseline;
+
+    wide-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+
+/*div{*/
+    /*box-sizing: border-box;*/
+    /*display: inline-block;*/
+
+    /*margin: 20px auto;*/
+    /*font-size: 0;*/
+    /*width: 100%;*/
+    /*border-collapse: collapse;*/
+    /*!*background: gray;*!*/
+    /*border: 1px solid #ccc;*/
+
+
+
+div{
+    border: 2px solid #FFF;
+    /*margin: 0px 100px;*/
+}
+
+.city{
+    list-style: none;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    font-size: 0;
+    width: 200%;
+
+    vertical-align: middle;
+    /*margin: 0px 200px;*/
+    line-height:200%;
+
+
+    width: auto;
+    /*border: 2px solid #FFF;*/
+     /*display: table-cell;*/
+}
+
+.city span{
+    opacity:0.6;
+    vertical-align: middle;
+
+}
+.city i{
+    line-height:170%;
+    opacity:0.6;
+    font-size: 29px;
+    vertical-align: middle;
+
+}
+
+.city li{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 6px;
+    border: 2px solid #FFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+
+    color: #FFF;
+
+    wide-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+
+}
+#a1{
+
+    display: inline-block;
+    /*display:table;*/
+    box-sizing: border-box;
+    padding: 17px 20px;
+
+    width: 50%;
+    background-color: #3399CC;
+}
+#a2{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 17px 20px;
+
+    width: 25%;
+    background-color: #33CCCC;
+}
+#a3{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 17px 20px;
+
+    width: 25%;
+    background-color: #996699;
+}
+#a4{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 17px 20px;
+
+    width: 25%;
+    background-color: #C24747;
+}
+#a5{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 17px 20px;
+
+    width: 25%;
+    background-color: #E2674A;
+}
+#a6{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 17px 20px;
+
+    width: 25%;
+    background-color: #FFCC66;
+}
+#a7{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 17px 20px;
+
+    width: 25%;
+    background-color: #99CC99;
+}
+#a8{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 17px 20px;
+
+    width: 25%;
+    background-color: #669999;
+}
+#a9{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 17px 20px;
+
+    width: 50%;
+    background-color: #CC6699;
+}
+#a10{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 17px 20px;
+
+    width: 25%;
+    background-color: #339966;
+}
+#a11{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 17px 20px;
+
+    width: 100%;
+    background-color: #666699;
+}
+
+.city:hover li{
+    opacity: 0.5;
+    /*background-color: rgba(255, 255, 255, 0.5);*/
+}
+
+ul.city li:hover{
+    opacity: 1;
+    /*border-color: transparent;*/
